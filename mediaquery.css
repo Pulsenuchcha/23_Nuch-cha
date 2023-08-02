@@ -1,0 +1,31 @@
+@media only screen and (max-width: 880px) {
+
+
+    /* Design  */
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        width: 100%;
+    }
+
+    .nav-icon {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        margin: 16px 24px;
+    }
+
+    .icon img {
+        width: 32px;}
